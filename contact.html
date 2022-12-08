@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Corey Harthoorn</title>
+	<link rel="shortcut icon" href="img/corey-harthoorn.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&family=Zen+Dots&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/press-start-2p" rel="stylesheet">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+	<header class="page-header">
+		<img src="img/logo.png" alt="logo" class="page-header__item">
+		<nav class="main-navigation page-header__item">
+			<ul role="menubar" class="navigation-list">
+				<li role="presentation">
+					<a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+				</li>
+				<li role="presentation">
+					<a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+				</li>
+				<li role="presentation">
+					<a href="contact.html" role="menuitem"
+						class="navigation-list__item navigation-list__item--active">Contact</a>
+				</li>
+				<li role="presentation">
+					<a href="work.html" role="menuitem" class="navigation-list__item">My Projects</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<hr>
+	<main>
+		<h1 class="my-info">Get in touch!</h1>
+		<p>I will be looking for web developer/software engineer roles beginning in March 2023. If you think we'd be a
+			good fit, please reach out!</p>
+		<h1 class="my-info">My Information</h1>
+		<p class="my-info">
+			Corey Harthoorn<br>
+			809 N Roche St<br>
+			Knoxville, IA 50138<br>
+			United States<br>
+			<br>
+			Email <a href="mailto:cjhart34@gmail.com">cjhart34@gmail.com</a><br>
+			Phone <a href="tel:13193253832">Call Me at 319-325-3832</a>
+		</p>
+	</main>
+	<footer class="page-footer">
+		<div>
+			<br>
+			<form action method="post" id="contact-form">
+				<label class="standard-label" for="contact-first-name">*First Name: </label>
+				<input type="contact-first-name" id="contact-first-name" required> <br><br>
+
+				<label class="standard-label" for="contact-last-name">*Last Name: </label>
+				<input type="contact-last-name" id="contact-last-name" required> <br><br>
+
+				<label class="standard-label" for="contact-email">*Email: </label>
+				<input type="email" id="contact-email" required> <br><br>
+
+				<label class="standard-label" for="contact-phone">Phone: (123-456-7890) </label>
+				<input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> <br><br>
+
+				<label class="standard-label" for="contact-message">*Message (Up to 240 Characters): </label><br>
+				<textarea maxlength="240" minlength="10" id="contact-message" required></textarea><br><br>
+
+				<input type="submit" value="Send Message">
+			</form><br><br>
+		</div>
+		<p>Find me on</p>
+		<div class="social-media">
+			<a href="http://github.com/cjhart34" target="_blank"><img src="img/github.svg" alt="Github"></a>
+			<a href="http://twitter.com" target="_blank"><img src="img/twitter.svg" alt="Twitter"></a>
+			<a href="http://linkedin.com/in/coreyharthoorn" target="_blank"><img src="img/linkedin.svg"
+					alt="LinkedIn"></a>
+		</div>
+	</footer>
+	<script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
