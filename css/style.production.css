@@ -20,12 +20,14 @@ h1 {
 	animation: 5s ease-in-out enter-left 1 forwards;
 	left: -100vw;
 	font-weight: 700;
+	/* max-width: 45%; */
 }
 
 h2 {
 	font-size: 2.4vh;
 	color: black;
 	font-weight: 700;
+	max-width: 90%;
 }
 
 h3 {
@@ -96,6 +98,13 @@ the "@extend %button-shared;", and it removes all formatting from my buttons ess
 
 .github {
 	font-family: 'Press Start 2P', sans-serif;
+}
+
+.icon {
+	width: 25%;
+	height: 20%;
+	max-width: 25%;
+	max-height: 20%;
 }
 
 .splash {
@@ -264,6 +273,8 @@ button:focus,
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 90%;
+	max-height: 30%;
 }
 
 .page-footer {
@@ -311,6 +322,7 @@ button:focus,
 	-webkit-box-flex: 0;
 	-ms-flex: 0 1 200px;
 	flex: 0 1 200px;
+
 }
 
 .page-header__item:last-child {
