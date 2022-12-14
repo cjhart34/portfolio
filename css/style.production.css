@@ -36,6 +36,51 @@ h3 {
 	font-weight: 700;
 }
 
+/* @media (min-width: 359px) {
+	.hidden-ss {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+	span.right {
+		display: block;
+		text-align: right;
+		clear: both;
+	}
+} */
+
+@media (max-width: 358px) {
+	.visible-ss {
+		display: block !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.hidden-sm {
+		display: none !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hidden-md {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hidden-lg {
+		display: none !important;
+	}
+}
+
+
 li {
 	font-size: 2vh;
 }
@@ -118,6 +163,8 @@ the "@extend %button-shared;", and it removes all formatting from my buttons ess
 	color: white;
 	text-align: center;
 	line-height: 90vh;
+	font-size: 1vh;
+
 }
 
 .splash.display-none {
