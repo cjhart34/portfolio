@@ -28,6 +28,7 @@ h2 {
 	color: black;
 	font-weight: 700;
 	max-width: 90%;
+	margin: 0 auto;
 }
 
 h3 {
@@ -107,6 +108,10 @@ a {
 	transition: 0.8s;
 }
 
+.work-item {
+	padding: 2vh;
+	font-size: 3vh;
+}
 
 a:visited {
 	/* visited link */
@@ -118,7 +123,7 @@ a:hover {
 	/* No underlining when hovering over a link */
 	text-decoration: none;
 	opacity: 0.8;
-	zoom: 1.1;
+	zoom: 1.05;
 	color: #f76414;
 
 }
@@ -127,7 +132,7 @@ a:focus {
 	/* No underlining when hovering over a link */
 	text-decoration: none;
 	opacity: 0.8;
-	zoom: 1.1;
+	zoom: 1.05;
 	color: #f76414;
 
 }
@@ -294,7 +299,7 @@ button:focus,
 	cursor: pointer;
 	/* reduces the opacity of the button to 80% */
 	opacity: 0.8;
-	zoom: 1.1;
+	zoom: 1.05;
 }
 
 .button__secondary {
@@ -306,10 +311,11 @@ button:focus,
 	float: none;
 	width: 25vh;
 	height: auto;
-	border-radius: 60%;
+	border-radius: 15%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: 0 auto;
 }
 
 .doggos {
@@ -411,18 +417,27 @@ button:focus,
 	width: 65vh;
 }
 
+.demo {
+	font-size: 2.5vh;
+	color: purple;
+	font-family: Montserrat;
+	/* font-family: Ubuntu; */
+	/* font-family: Zen-Dots; */
+}
+
 .grid {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 50vh 50vh;
-	grid-template-columns: 70vh 70vh;
+	grid-template-columns: 80vh 80vh;
 	-ms-grid-rows: 88vh 99vh 88vh;
-	grid-template-rows: 88vh 99vh 88vh;
+	grid-template-rows: 90vh 106vh 90vh;
 	text-align: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 	margin: 40px;
+	line-height: normal;
 }
 
 .grid__item {
