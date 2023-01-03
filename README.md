@@ -1,2 +1,7 @@
-# portfolio2
+# Corey Harthoorn's Portfolio
+
+<img src=./img/logo.png/>
  
+## Live Link
+
+[Portfolio](https://cjhart34.github.io/portfolio)

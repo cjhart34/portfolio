@@ -17,66 +17,62 @@
 	<link href="https://fonts.cdnfonts.com/css/press-start-2p" rel="stylesheet">
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/logowithwhitebackground.png" />
 </head>
 
-<body>
+<body id="home">
+	<!-- Add your logo here -->
+	<nav class="navbar">
+		<a href="#home"><img src="img/logo.png" alt="logo" class="icon"></a>
 
-	<!-- Header including the logo and the main navigation -->
-	<header class="page-header">
-
-		<!-- Add your logo here -->
-		<img src="img/logo.png" alt="logo" class="page-header__item icon">
-		<nav class="main-navigation page-header__item">
-			<button class="b-site--theme-control" id="theme-control">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="b-icon b-icon--sun">
-					<g data-name="Layer 2">
-						<g data-name="sun">
-							<rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
-							<path d="M12 6a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1z" />
-							<path d="M21 11h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
-							<path d="M6 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1z" />
-							<path
-								d="M6.22 5a1 1 0 0 0-1.39 1.47l1.44 1.39a1 1 0 0 0 .73.28 1 1 0 0 0 .72-.31 1 1 0 0 0 0-1.41z" />
-							<path
-								d="M17 8.14a1 1 0 0 0 .69-.28l1.44-1.39A1 1 0 0 0 17.78 5l-1.44 1.42a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.31z" />
-							<path d="M12 18a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1z" />
-							<path
-								d="M17.73 16.14a1 1 0 0 0-1.39 1.44L17.78 19a1 1 0 0 0 .69.28 1 1 0 0 0 .72-.3 1 1 0 0 0 0-1.42z" />
-							<path
-								d="M6.27 16.14l-1.44 1.39a1 1 0 0 0 0 1.42 1 1 0 0 0 .72.3 1 1 0 0 0 .67-.25l1.44-1.39a1 1 0 0 0-1.39-1.44z" />
-							<path d="M12 8a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2z" />
-						</g>
+		<button class="b-site--theme-control" id="theme-control">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="b-icon b-icon--sun">
+				<g data-name="Layer 2">
+					<g data-name="sun">
+						<rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
+						<path d="M12 6a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1z" />
+						<path d="M21 11h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
+						<path d="M6 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1z" />
+						<path
+							d="M6.22 5a1 1 0 0 0-1.39 1.47l1.44 1.39a1 1 0 0 0 .73.28 1 1 0 0 0 .72-.31 1 1 0 0 0 0-1.41z" />
+						<path
+							d="M17 8.14a1 1 0 0 0 .69-.28l1.44-1.39A1 1 0 0 0 17.78 5l-1.44 1.42a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.31z" />
+						<path d="M12 18a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1z" />
+						<path
+							d="M17.73 16.14a1 1 0 0 0-1.39 1.44L17.78 19a1 1 0 0 0 .69.28 1 1 0 0 0 .72-.3 1 1 0 0 0 0-1.42z" />
+						<path
+							d="M6.27 16.14l-1.44 1.39a1 1 0 0 0 0 1.42 1 1 0 0 0 .72.3 1 1 0 0 0 .67-.25l1.44-1.39a1 1 0 0 0-1.39-1.44z" />
+						<path d="M12 8a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2z" />
 					</g>
-				</svg>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="b-icon b-icon--moon">
-					<g data-name="Layer 2">
-						<g data-name="moon">
-							<rect width="24" height="24" opacity="0" />
-							<path
-								d="M12.3 22h-.1a10.31 10.31 0 0 1-7.34-3.15 10.46 10.46 0 0 1-.26-14 10.13 10.13 0 0 1 4-2.74 1 1 0 0 1 1.06.22 1 1 0 0 1 .24 1 8.4 8.4 0 0 0 1.94 8.81 8.47 8.47 0 0 0 8.83 1.94 1 1 0 0 1 1.27 1.29A10.16 10.16 0 0 1 19.6 19a10.28 10.28 0 0 1-7.3 3zM7.46 4.92a7.93 7.93 0 0 0-1.37 1.22 8.44 8.44 0 0 0 .2 11.32A8.29 8.29 0 0 0 12.22 20h.08a8.34 8.34 0 0 0 6.78-3.49A10.37 10.37 0 0 1 7.46 4.92z" />
-						</g>
+				</g>
+			</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="b-icon b-icon--moon">
+				<g data-name="Layer 2">
+					<g data-name="moon">
+						<rect width="24" height="24" opacity="0" />
+						<path
+							d="M12.3 22h-.1a10.31 10.31 0 0 1-7.34-3.15 10.46 10.46 0 0 1-.26-14 10.13 10.13 0 0 1 4-2.74 1 1 0 0 1 1.06.22 1 1 0 0 1 .24 1 8.4 8.4 0 0 0 1.94 8.81 8.47 8.47 0 0 0 8.83 1.94 1 1 0 0 1 1.27 1.29A10.16 10.16 0 0 1 19.6 19a10.28 10.28 0 0 1-7.3 3zM7.46 4.92a7.93 7.93 0 0 0-1.37 1.22 8.44 8.44 0 0 0 .2 11.32A8.29 8.29 0 0 0 12.22 20h.08a8.34 8.34 0 0 0 6.78-3.49A10.37 10.37 0 0 1 7.46 4.92z" />
 					</g>
-				</svg>
-				<span class="b-site--theme-text">too bright?</span>
-			</button>
-			<ul role="menubar" class="navigation-list">
-				<li role="presentation">
-					<a href="index.html" role="menuitem"
-						class="navigation-list__item navigation-list__item--active">Home</a>
-				</li>
-				<li role="presentation">
-					<a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-				</li>
-				<li role="presentation">
-					<a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-				</li>
-				<li role="presentation">
-					<a href="work.html" role="menuitem" class="navigation-list__item">My Projects</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+				</g>
+			</svg>
+			<span class="b-site--theme-text">too bright?</span>
+		</button>
+		<ul role="menubar" class="navigation-list">
+			<li role="presentation">
+				<a href="#home" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+			</li>
+			<li role="presentation">
+				<a href="#about" role="menuitem" class="navigation-list__item">About Me</a>
+			</li>
+			<li role="presentation">
+				<a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
+			</li>
+			<li role="presentation">
+				<a href="#projects" role="menuitem" class="navigation-list__item">My Projects</a>
+			</li>
+		</ul>
+	</nav>
 
 	<div class="splash">
 		<h3 class="fade-in">Welcome
@@ -89,30 +85,184 @@
 		</h3>
 	</div>
 
-	<hr>
 	<main>
-		<div>
+		<div class="content">
 			<!-- Add your Portrait image here -->
+			<br><br><br><br>
 			<img src="img/corey-harthoorn.png" class="profile__portrait" alt="A photograph of me">
 		</div>
 		<div class="profile">
-			<h1>Hello there!</h1>
-			<h2>My name is Corey Harthoorn.<br>
-				I am a <span id="profile__web">&lt;web developer&gt;</span> from the Des Moines area.</h2>
-			<a href="https://github.com/cjhart34" target="_blank">Check out some of my code</a>
+			<h1>Corey Harthoorn</h1>
+			<h2>I am a <span id="profile__web">&lt;Full-Stack Web Developer&gt;</span> from the Des Moines area.</h2>
+			<a href="#about">Get to know me</a>
 		</div>
-		<!-- <button type="button" onclick="alert('')">Click me</button> -->
+
+		<section id="about">
+			<br><br><br>
+			<h1 class="enjoyment">ABOUT ME</h1>
+			<h2>Full-Stack Web Developer</h2>
+			<p class="i-am">My name is Corey Harthoorn. Pleased to meet you. <br> I started my journey as a developer
+				back in March 2022 while watching my sister code.
+				I really enjoyed watching her, and put some thought into it, and decided to make the jump myself.
+				I had no prior experience in the field, but I instantly fell in love with it and have had the desire to
+				learn all I can ever since.</p>
+			<table class="i-am">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Languages/Libraries/Frameworks used:</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>HTML</td>
+						<td>CSS</td>
+						<td>JavaScript</td>
+					</tr>
+					<tr>
+						<td>React</td>
+						<td>React Native</td>
+						<td>Node.js</td>
+					</tr>
+					<tr>
+						<td>jQuery</td>
+						<td>Bootstrap</td>
+						<td>Ajax</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>TypeScript</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			<ul class="navigation-list1">
+				<li> <span><img src="img/coding.png" class="coding" alt="coding"> </span> </li>
+			</ul>
+			<div>
+				<a href="files/cv.pdf" class="btn1" download>
+					<li>Download my resume</li>
+				</a>
+			</div>
+		</section>
+		<section id="contact">
+			<br><br><br>
+			<h1 class="my-info">Get in touch!</h1>
+			<p>I will be looking for web developer/software engineer roles beginning in March 2023. If you think we'd be
+				a
+				good fit, or have any advice for me on my website/portfolio, please reach out!</p>
+			<h1 class="my-info">My Information</h1>
+			<p class="my-info">
+				Corey Harthoorn<br>
+				809 N Roche St<br>
+				Knoxville, IA 50138<br>
+				United States<br>
+				<br>
+				Email <a href="mailto:cjhart34@gmail.com">cjhart34@gmail.com</a><br>
+				Phone <a href="tel:13193253832">319-325-3832</a>
+
+			<ul class="navigation-list1">
+				<li> <span><img src="img/mac2.png" class="coding" alt="macbook"> </span> </li>
+			</ul>
+			</p>
+		</section>
+		<section id="projects">
+			<br><br><br>
+			<h1 class="my-work">My Projects</h1>
+			<div class="grid">
+				<!-- Grid items will live here -->
+				<div class="grid__item">
+					<h2 class="work-item">Pokédex App</h2>
+					<img class="img" src="./img/pokedex.png" alt="Screenshot of the Pokédex App I created." />
+					<p>
+						This is a simple JavaScript App that I developed to render the Pokémon API to display the
+						Pokémon as
+						they would appear in a Pokédex.
+					</p>
+					<a class='demo' href="https://cjhart34.github.io/Pokedex-app" target="_blank">Live Demo</a><br><br>
+					<a class='github' href="https://github.com/cjhart34/Pokedex-app" target="_blank">Github Code</a>
+				</div>
+				<div class="grid__item">
+					<h2 class="work-item">MyFlix Backend Code</h2>
+					<img class="img" src="./img/movieapp.png" alt="Screenshot of the Movie API I created." />
+					<p>
+						Using MongoDB, Express, Node.js, and REST API, an app that shows movies and their data to the
+						user. You
+						can
+						sign up, update your personal
+						information, and create a list of your favorite movies.
+					</p>
+					<a class='demo' href="https://cjhart34.herokuapp.com/" target="_blank">Live Demo</a><br><br>
+					<a class='github' href="https://github.com/cjhart34/movie_api" target="_blank">Github Code</a>
+				</div>
+				<div class="grid__item">
+					<h2 class="work-item">MyFlix React App</h2>
+					<img class="img" src="./img/myflix.png" alt="Screenshot of the MyFlix App I created." />
+					<p>
+						I used React as a framework to build the client-side for an application called MyFlix, based on
+						its
+						existing server-side code (MERN stack).
+					</p>
+					<a class='demo' href="https://cjhart34.netlify.app/" target="_blank">Live Demo</a><br><br>
+					<a class='github' href="https://github.com/cjhart34/myflix-client" target="_blank">Github Code</a>
+				</div>
+				<div class="grid__item">
+					<h2 class="work-item">Meet App</h2>
+					<img class="img" src="./img/meet-app.png" alt="Screenshot of the Meet App I created." />
+					<p>
+						Using React and the Google Calendar API, this app provides a list of upcoming events for any
+						given
+						city. The app works offline using cached
+						data from the last time it was used online. The user can search for events in a specific city or
+						browse all events, customize how many events are shown on screen, click an event for more
+						details,
+						and see how many events are upcoming in those cities.
+					</p>
+					<a class='demo' href="https://cjhart34.github.io/meet/" target="_blank">Live Demo</a><br><br>
+					<a class='github' href="https://github.com/cjhart34/meet" target="_blank">Github Code</a>
+				</div>
+				<div class="grid__item">
+					<h2 class="work-item">Chat App</h2>
+					<img class="img" src="./img/5.5.png" alt="Screenshot of the Chat App I created." />
+					<p>
+						This is a native mobile app built using React Native that allows users to enter a chat room,
+						send
+						messages, images, and their location. It allows you to view your cached messages even without
+						internet connection.
+					</p>
+					<a class='github' href="https://github.com/cjhart34/chat-app" target="_blank">Github Code</a>
+				</div>
+				<div class="grid__item">
+					<h2 class="work-item">Angular Project</h2>
+					<img class="img" src="./img/screenshot2.png" alt="Screenshot of the Angular App I created." />
+					<p>
+						I rebuilt the client-side of an application called MyFlix using the existing server-side code
+						(MERN stack), this time using Angular instead of React.
+					</p>
+					<a class='demo' href="https://cjhart34.github.io/myFlix-Angular/welcome" target="_blank">Live
+						Demo</a><br><br>
+					<a class='github' href="https://github.com/cjhart34/myFlix-Angular" target="_blank">Github Code</a>
+				</div>
+			</div>
+		</section>
+
 	</main>
-	<footer class="page-footer">
-		<p>Find me on</p>
-		<div class="social-media">
-			<a href="http://github.com/cjhart34" target="_blank"><img src="img/github.svg" alt="Github"></a>
-			<!-- <a href="http://twitter.com" target="_blank"><img src="img/twitter.svg" alt="Twitter"></a> -->
-			<a href="http://linkedin.com/in/coreyharthoorn" target="_blank"><img src="img/linkedin.svg"
-					alt="LinkedIn"></a>
+	<section id="footer">
+		<div>
+			<h1>Find me on</h1>
+			<div class="social-icon">
+				<div class="social-item">
+					<a href="http://github.com/cjhart34" target="_blank"><img src="img/github.svg" alt="Github"></a>
+				</div>
+				<div class="social-item">
+					<a href="http://linkedin.com/in/coreyharthoorn" target="_blank"><img src="img/linkedin.svg"
+							alt="LinkedIn"></a>
+				</div>
+			</div>
+			<h2>Copyright &copy; 2022 - Corey Harthoorn. All rights reserved.</h2>
 		</div>
-	</footer>
-	<!-- <script src="js/tota11y.min.js"></script> -->
+	</section>
 	<script src="js/app.js"></script>
 </body>
 
