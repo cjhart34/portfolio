@@ -5,3 +5,10 @@
 ## Live Link
 
 [Portfolio](https://cjhart34.github.io/portfolio)
+
+## Dependencies
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
