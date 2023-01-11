@@ -31,10 +31,16 @@ header {
 
 .card {
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .card-img-top {
 	height: 380px;
+	transition: .8s ease;
+}
+
+.card-img-top:hover {
+	transform: scale(1.1, 1.09);
 }
 
 .navbar-toggler-icon {
