@@ -196,24 +196,26 @@ header {
 
 .github {
 	font-family: 'Press Start 2P', sans-serif;
-	color: #18157A
+	color: #18157A;
+	transition: 0.2s ease;
 }
 
 .github:hover {
 	text-decoration: none;
-	color: #e79e19
+	color: #e79e19;
 }
 
 
 .demo {
 	font-size: 1.75vh;
 	font-family: Montserrat;
-	color: #18157A
+	color: #18157A;
+	transition: 0.2s ease;
 }
 
 .demo:hover {
 	text-decoration: none;
-	color: #e79e19
+	color: #e79e19;
 }
 
 
@@ -264,6 +266,10 @@ header {
 	height: 170px;
 	line-height: 30%;
 	min-width: 250px;
+}
+
+#contact a {
+	transition: 0.5s ease;
 }
 
 #contact a:hover {
