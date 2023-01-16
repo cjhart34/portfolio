@@ -5,7 +5,7 @@ section {
 /* hero background image */
 .bgimage {
 	height: 100vh;
-	background: url('../img/heroImage.jpeg');
+	background: url('../img/heroImage1.png');
 	background-size: cover;
 	position: relative;
 	min-height: 100%;
@@ -125,7 +125,7 @@ header {
 /* spacing on all sections */
 #about,
 #contact {
-	padding-top: 4rem;
+	padding-top: 6rem;
 }
 
 #projects {
@@ -235,6 +235,7 @@ header {
 	margin-right: 25px;
 	width: 500px;
 	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 #contact .contact-item a {
